@@ -1,0 +1,118 @@
+body {
+    min-height: 100%;
+    margin: 0;
+    background-size: cover;
+    background-image: url("/images/common/loginbg.jpg");
+}
+.header>header{
+ background: rgba(57,61,73,1);
+}
+.center{
+    max-width: 960px;
+    min-width: 960px;
+    margin: 0 auto;
+    margin-top:100px;
+}
+.center a{
+    color: black;
+}
+
+.reply {
+    margin:0 auto;
+    height: 30px;
+    color: #ff713f;
+    width: 300px;
+    text-align: center;
+    line-height: 30px;
+}
+
+#permitreply>a{
+    font-size: 15px;
+}
+
+.platename{
+    text-align: center;
+    font-size: 25px;
+    color:cornflowerblue;
+    letter-spacing:10px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.loginform {
+    width: 360px;
+    margin: 0px auto 0;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.loginform a:hover,
+.loginform a:link,
+.loginform a:visited {
+    text-decoration: none;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.logintext {
+    height: 60px;
+    width: 180px;
+    font-size: 30px;
+    margin: 0 auto;
+    line-height: 60px;
+}
+
+.logintext img {
+    height: 40px;
+}
+
+.logintext a:link,
+.logintext a:hover,
+.logintext a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.inputcase {
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+    max-width: 350px;
+    padding: 0;
+    border-radius: 5px;
+    display: block;
+}
+
+.inputcase>input {
+    font-size: 15px;
+    height: 40px;
+    width: 90%;
+    padding: 0 5%;
+    border: 0;
+    font-weight: 500;
+    outline: 0;
+    border-radius: 5px;
+}
+
+.loginbtn {
+    width: 300px;
+    height: 40px;
+    margin: 10px auto;
+    margin-top:30px;
+    max-width: 350px;
+    padding: 0;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 20px;
+}
+.loginbtn>button {
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background: #fff;
+}

@@ -1,0 +1,248 @@
+body {
+    background-color: rgba(255, 255, 255, 0);
+
+}
+header {
+}
+.background{
+    background-color: #fff;
+}
+.usercard {
+    height: 130px;
+    min-width: 798px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #C0C0C0;
+}
+
+.userheadimg {
+    float: left;
+    height:100%;
+    margin-left: 3%;
+    width:130px;
+}
+
+.userheadimg img {
+    float:left;
+    border-radius: 100px;
+    height: 80%;
+    width: 100px;
+    margin: 10% 10%;
+}
+
+.countdown {
+    margin-right: 50px;
+    border-radius: 0 5px 0 0;
+    float: right;
+    width: 200px;
+    height: 100%;
+}
+
+.countdown h4 {
+    padding:10px 0;
+    margin:0;
+    background-color: #393D49;
+    font-size: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #fff;
+    border-radius: 0px 0px 10px 10px;
+}
+.countdown h5 {
+    font-size: 16px;
+    margin-top:30px;
+    text-align: center;
+    color:rgba(0,188,155,1);
+}
+.countdown h5>span {
+    padding:0 5px;
+    font-size: 20px;
+    margin-top:30px;
+    text-align: center;
+}
+
+.userinfo {
+    width: 500px;
+    float: left;
+    height: 100%;
+}
+
+.nickname {
+    padding-left: 40px;
+    margin-top: 25px;
+    font-size: 20px;
+    color: rgb(87, 118, 255);
+}
+
+.schoolinfo {
+    padding-left: 40px;
+    margin-top: 8%;
+    font-size: 13px;
+    font-weight: bold;
+}
+.schoolinfo>span{
+    color: rgba(0, 0, 0, 0.55);
+}
+.schoolinfo span:first-child {
+    padding-right: 5%;
+}
+.schoolinfo>span>span{
+    font-family: "Lucida Grande", Lucida Sans Unicode, Hiragino Sans GB, WenQuanYi Micro Hei, Verdana, Aril, sans-serif;
+    color:#1a1a1a;
+}
+
+
+.userfunction {
+    background-color: #fff;
+    float: left;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    width: 240px;
+    border-radius: 5px;
+    border: 1px solid #C0C0C0;
+}
+#userfunction{
+    font-size: 15px;
+
+}
+
+.userfunction>li {
+    color: gray;
+    cursor: pointer;
+    display:block;
+    float: left;
+    height: 40px;
+    font-size: 15px;
+    line-height: 40px;
+    width: 200px;
+    padding-left: 20px;
+    padding-right:20px;
+}
+
+.userfunction>a>li {
+    color: gray;
+    cursor: pointer;
+    display:block;
+    float: left;
+    height: 40px;
+    font-size: 15px;
+    line-height: 40px;
+    width: 200px;
+    padding-left: 20px;
+    padding-right:20px;
+}
+
+.userfunction span {
+    height: 40px;
+    float: left;
+}
+
+.userfunction img:first-child {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 5px 10px;
+}
+.userfunction img:last-child {
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin:13px 0;
+    left: 80px;
+    float: left;
+}
+
+.content{
+    position: relative;
+    border: 1px solid #C0C0C0;
+    float: right;
+    width: 680px;
+    background: #fff;
+    border-radius: 5px;
+}
+.userfunction>li:hover{
+    width: 198px;
+    padding-left: 20px;
+    color:rgba(0,188,155,1);
+    background-color:rgba(0,188,155,0.1);
+    border-right:2px solid rgba(0,188,155,1);
+}
+.userfunction>a>li:hover{
+
+    width: 198px;
+    padding-left: 20px;
+    color:rgba(0,188,155,1);
+    background-color:rgba(0,188,155,0.1);
+    border-right:2px solid rgba(0,188,155,1);
+}
+.userfunction>nav{
+    clear: both;
+    list-style-type: none;
+}
+
+.userfunction>nav>a{
+    text-decoration: none;
+    color:rgba(36, 94, 210,1);
+}
+
+.userfunction>nav>a>li{
+    cursor: pointer;
+    color: gray;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 80px;
+    width: 160px;
+}
+.userfunction nav>a>li:hover{
+    width: 158px;
+    color:rgba(0,188,155,1);
+    background-color:rgba(0,188,155,0.1);
+    border-right:2px solid rgba(0,188,155,1);
+}
+
+.mintitle{
+    text-align: center;
+    width: 100%;
+    float: left;
+    padding:10px 0px;
+    margin:50px 0px 20px 0;
+    color: rgba(49, 126, 212, 1);
+    font-size: 20px;
+    font-weight: bold;
+}
+.title{
+    text-align: center;
+    width: 100%;
+    float: left;
+    padding:5px 0px;
+    margin:0;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 0px 0px 50px 0px;
+    background-size:18px;
+    color: rgba(0,188,155,1);
+    border-bottom: 1px solid #adadad;
+    /*background-color:#393D49;*/
+}
+.title>span{
+    padding:10px 20px;
+}
+
+.postinfo{
+    overflow: hidden;
+}
+.collection{
+    overflow: hidden;
+}
+
+.noresult{
+    clear: both;
+    width: 100%;
+    height: 458px;
+    background: url(/images/user/notfound.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: right;
+}

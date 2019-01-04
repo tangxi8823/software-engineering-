@@ -1,0 +1,145 @@
+.layui-elem-field {
+    width: 600px;
+    height: 280px;
+    margin:0 auto;
+}
+.blank{
+    height: 25px;
+}
+.zsml-summary{
+    font-weight: bold;
+}
+td{
+    height:55px;
+    white-space: nowrap;
+}
+.ssss{
+    width: 148px;
+}
+.diractiontitle{
+    color:#2a82e4;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+.layui-elem-quote{
+    width:568px;
+    margin:0 auto;
+    margin-top: 20px;
+}
+.zsml-result{padding:10px 0 0;margin-top:10px;}
+.zsml-res-items{background-color:#f9fcff; text-align: center;}
+.zsml-res-items td{padding:15px 10px;vertical-align:top}
+.zsml-res-items .sub-msg{display:block;font-size:12px;color:#999}
+.zsml-res-divider{text-align:center;color:#999}
+.zsml-res-divider td{padding:0;height:35px;line-height:0}
+.zsml-res-divider span{display:inline-block;margin-top:-12px;padding:0 3px;background:#fff;height:28px;line-height:28px}
+.zsml-res-divider .zsml-line{margin:0;padding:0;margin-top:-14px;border-style:none;border-bottom:1px solid #e5e5e5}
+.zsml-side{padding:20px;border:1px solid #d6d6d6}
+.scope{
+    width:600px;
+    margin:0 auto;
+}
+.jieda {
+    margin-bottom: 30px;
+    margin:0 auto;
+    width:600px;
+}
+.detail-about-reply {
+    padding: 0 0 0 5px;
+    background: none;
+}
+.jieda-body {
+    margin-top: 15px;
+    margin-left:20px;
+    margin-bottom: 15px;
+}
+.jieda-reply {
+    margin-left: 10px;
+    font-size: 13px;
+}
+.layui-field-box {
+    padding: 10px 15px;
+    margin-left: 20px;
+}
+.layui-col-md8{
+    width:700px;
+}
+.layui-col-md8 {
+    width: 66%;
+    margin-left: 2%;
+}
+.layui-col-md4 {
+    width: 30%;
+}
+.layui-timeline {
+    width: 600px;
+    margin-top: 25px;
+    margin-left: 70px;
+}
+.zsml-summary {
+    font-weight: bold;
+    color: darkslategrey;
+}
+.zsml-summary {
+    font-weight: bold;
+    color: darkslategrey;
+}
+.layui-elem-field {
+    width: 680px;
+}
+.layui-elem-quote {
+    width: 646px;
+}
+.layui-timeline {
+    margin-left: 30px;
+}
+.count{
+    margin: 30%;
+}
+.count {
+    margin-left: 90px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+#cute{
+    float:left;
+    padding: 10px;
+}
+.scollect{
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    margin-left: 90px;
+    text-decoration: underline;
+}
+.scollect a{
+    color:green;
+}
+.scollect a:hover{
+    color:darkorange;
+}
+element.style {
+    background-color: burlywood;
+}
+.til{
+    padding-bottom: 5px;
+}
+
+element.style {
+}
+.til {
+    float: right;
+    margin-top: 10px;
+    margin-right: 500px;
+    padding: 0 auto;
+    letter-spacing: 2px;
+}
+.zsml-res-items td {
+    font-size: 14px;
+}
+caption, th, td {
+    font-size: 15px;
+}

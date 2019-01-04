@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.utunan.mapper.school.DirectionCommentGreatMapper">
+
+    <!--查询某用户是否在某评论点赞-->
+    <select id="findDCGreat" parameterType="java.lang.Long" resultType="com.utunan.pojo.base.school.DirectionCommentGreat">
+        select *
+        from direction_comment_great
+        where directionCommentId=#{directionCommentId} and userId=#{userId}
+    </select>
+    <!--添加用户点赞记录-->
+    <insert id="insertDCGreat" parameterType="java.lang.Long">
+        insert
+        into direction_comment_great(directionCommentId,userId)
+        values (#{directionCommentId},#{userId})
+    </insert>
+    <!--删除用户点赞记录-->
+    <delete id="deleteDCGreat" parameterType="java.lang.Long">
+        delete
+        from direction_comment_great
+        where directionCommentId=#{directionCommentId} and userId=#{userId}
+    </delete>
+    <!--查询该用户在某院校下的点赞列表-->
+    <select id="findfindDCGreatList" parameterType="java.lang.Long" resultType="java.lang.Long">
+        select distinct directionCommentId
+        from direction_comment_great
+        where userId=#{userId}
+    </select>
+
+</mapper>
